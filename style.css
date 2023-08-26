@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-height: 70%;
+}
+
+#welcome {
+    max-width: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background: url("/assets/onyx_indoor.jpg") no-repeat center/cover;
+    color: beige;
+    border: 5px solid #000;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+
+#welcome h1 {
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    letter-spacing: 8px;
+}
+
+#welcome p {
+    font-size: 20px;
+}
+
+#about {
+    text-align: justify;
+    padding: 60px 50px;
+    background: #161616;
+    color: #F5F5DC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #666;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+
+#services {
+    padding: 100px 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+#services-container {
+    display: flex;
+    max-width: 70%;
+    margin: 30px auto;
+    align-items: center;
+    /*service kártyák közötti távolság*/
+    
+}
+
+.service h4 {
+    font-weight: bold;
+}
+
+.service:nth-child(1) {
+    background: #F5F5DC;
+    color: #161616;
+ }
+
+ .service:nth-child(2) {
+    border: 2px solid #666;
+}
+ 
+.service:nth-child(3) {
+   background: #F5F5DC;
+   color: #161616;
+}
+
+.offcanvas-title img {
+    height: 50px;
+}
+
+
+#services-container p {
+    font-size: 14px;
+}
+
+.fs-4 {
+    margin-top: 20px;
+}
+
+.service {
+    border: 2px solid #000;
+    border-radius: 20px;
+    background: #000;
+    margin: 0 auto;
+    color: #F5F5DC;
+    box-shadow: 3px 4px 10px 1px #161616;
+    font-size: 14px;
+ }
+
+ .offcanvas-body {
+    background: url("/assets/onix.jpg") no-repeat;
+ }
+
+ #contact {
+    padding: 60px 0;
+    background: #161616;
+    color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #666;
+    border-radius: 8px;
+}
+
+#contact a {
+    margin-top: 25px;
+    color: #F5F5DC;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+#footer {
+    padding: 40px 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#footer img {
+    height: 50%;
+}
+
+#logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#logo img {
+    height: 50%;
+}
+
+#logo {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-brand img  {
+    max-width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.img-thumbnail {
+    margin: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-subheading {
+        width: 85%;
+    }
+
+    .fs-1 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar-brand img {
+        height: 35px;
+    }
+
+    .fs-1 {
+        margin-top: 20px;
+    }
+
+
+}
